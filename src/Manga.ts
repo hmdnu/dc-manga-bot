@@ -17,7 +17,7 @@ export default class Manga {
     // Initial check
     this.startChecking();
 
-    setInterval(() => this.startChecking(), 1000 * 2);
+    setInterval(() => this.startChecking(), 1000 * 60 * 60 * 24 * 7);
   }
 
   private async startChecking() {
